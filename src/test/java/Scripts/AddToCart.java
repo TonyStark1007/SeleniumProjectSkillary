@@ -2,8 +2,8 @@ package Scripts;
 
 import org.testng.annotations.Test;
 
-import PomPages.AddTocart;
-import PomPages.DemoSkillarayLogin;
+import PomPages.AddTocartPage;
+import PomPages.DemoSkillarayLoginPage;
 import PomPages.SkillarayLoginpage;
 import genericlib.BaseClass;
 
@@ -15,11 +15,11 @@ public class AddToCart extends BaseClass {
 		s.skillaraydemoClick();
 		utilities.switchTab(driver);
 		
-		DemoSkillarayLogin d=new DemoSkillarayLogin(driver);
+		DemoSkillarayLoginPage d=new DemoSkillarayLoginPage(driver);
         utilities.mouseHover(driver, d.getCoursebtn());
         d.seleniumTraining();
         
-        AddTocart a=new AddTocart(driver);
+        AddTocartPage a=new AddTocartPage(driver);
         utilities.doubleClick(driver, a.getAddbtn());
         a.addToCartbtn();
         

@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class DemoSkillarayLogin {
+public class DemoSkillarayLoginPage {
 
 	@FindBy(id="course")
 	private WebElement coursebtn;
@@ -13,8 +13,11 @@ public class DemoSkillarayLogin {
 
 	@FindBy(xpath="//a[text()='Selenium Training']")
 	private WebElement Seleniumtrainingbtn;
+	
+	@FindBy(xpath="//a[text()='Contact Us']")
+	private WebElement contactusbtn;
 
-	public DemoSkillarayLogin(WebDriver driver){
+	public DemoSkillarayLoginPage(WebDriver driver){
 		PageFactory.initElements(driver, this);
 	}
 
@@ -23,6 +26,9 @@ public class DemoSkillarayLogin {
 	}
 	public WebElement getCoursebtn() {
 		return coursebtn;
+	}
+	public void contactUsbtn() {
+		contactusbtn.click();
 	}
 
 }

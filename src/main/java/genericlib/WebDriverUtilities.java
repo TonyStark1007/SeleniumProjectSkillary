@@ -28,6 +28,9 @@ public void alertPopup(WebDriver driver) {
 public void switchFrame(WebDriver driver) {
 	driver.switchTo().frame(0);
 }
+public void switchBack(WebDriver driver) {
+	driver.switchTo().defaultContent();
+}
 public void scrollBar(WebDriver driver,int x,int y) {
 	JavascriptExecutor j=(JavascriptExecutor)driver;
 	j.executeScript("window.scrollBy("+x+","+y+")");
