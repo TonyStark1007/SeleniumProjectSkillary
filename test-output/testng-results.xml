@@ -2,31 +2,31 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-05-22T20:51:58 IST" name="Default suite" finished-at="2021-05-22T20:52:14 IST" duration-ms="15245">
+  <suite started-at="2021-06-16T10:34:28 IST" name="Default suite" finished-at="2021-06-16T10:34:57 IST" duration-ms="29177">
     <groups>
     </groups>
-    <test started-at="2021-05-22T20:51:58 IST" name="Default test" finished-at="2021-05-22T20:52:14 IST" duration-ms="15245">
-      <class name="Scripts.ContactUs">
-        <test-method is-config="true" signature="openApp()[pri:0, instance:Scripts.ContactUs@1ba9117e]" started-at="2021-05-22T20:51:58 IST" name="openApp" finished-at="2021-05-22T20:52:03 IST" duration-ms="5019" status="PASS">
+    <test started-at="2021-06-16T10:34:28 IST" name="Default test" finished-at="2021-06-16T10:34:57 IST" duration-ms="29177">
+      <class name="Scripts.Career">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:Scripts.Career@1ba9117e]" started-at="2021-06-16T10:34:28 IST" name="openApp" finished-at="2021-06-16T10:34:36 IST" duration-ms="8600" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="contactUspage()[pri:0, instance:Scripts.ContactUs@1ba9117e]" started-at="2021-05-22T20:52:03 IST" name="contactUspage" finished-at="2021-05-22T20:52:13 IST" duration-ms="9358" status="PASS">
+        <test-method signature="myCourse()[pri:0, instance:Scripts.Career@1ba9117e]" started-at="2021-06-16T10:34:36 IST" name="myCourse" finished-at="2021-06-16T10:34:57 IST" duration-ms="20503" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- contactUspage -->
-        <test-method is-config="true" signature="close(org.testng.ITestResult)[pri:0, instance:Scripts.ContactUs@1ba9117e]" started-at="2021-05-22T20:52:13 IST" name="close" finished-at="2021-05-22T20:52:14 IST" duration-ms="808" status="PASS">
+        </test-method> <!-- myCourse -->
+        <test-method is-config="true" signature="close(org.testng.ITestResult)[pri:0, instance:Scripts.Career@1ba9117e]" started-at="2021-06-16T10:34:57 IST" name="close" finished-at="2021-06-16T10:34:57 IST" duration-ms="9" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=contactUspage status=SUCCESS method=ContactUs.contactUspage()[pri:0, instance:Scripts.ContactUs@1ba9117e] output={null}]]]>
+                <![CDATA[[TestResult name=myCourse status=SUCCESS method=Career.myCourse()[pri:0, instance:Scripts.Career@1ba9117e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- Scripts.ContactUs -->
+      </class> <!-- Scripts.Career -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

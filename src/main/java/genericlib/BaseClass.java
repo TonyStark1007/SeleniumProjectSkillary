@@ -10,9 +10,10 @@ import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
+import tp.PropertyFile;
+
 public class BaseClass {
 	public 	WebDriverUtilities utilities=new WebDriverUtilities();
-
 	public WebDriver driver;
 	public  Propertyfile p=new  Propertyfile();
 
@@ -35,7 +36,7 @@ public class BaseClass {
 			Screenshot s=new Screenshot();
 			s.getPhoto(driver, name);
 		}
-		driver.quit();
+		//driver.quit();
 	}
 
 

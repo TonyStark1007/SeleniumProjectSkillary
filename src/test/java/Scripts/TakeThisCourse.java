@@ -7,13 +7,13 @@ import org.testng.annotations.Test;
 
 import PomPages.CoreJavaForSelePage;
 import PomPages.SkillarayCouresesPage;
-import PomPages.SkillarayLoginpage;
+import PomPages.SkillarayLoginPage;
 import genericlib.BaseClass;
 
 public class TakeThisCourse extends BaseClass {
 @Test
 public void takeThisCourse() throws FileNotFoundException, IOException, InterruptedException {
-	SkillarayLoginpage s=new SkillarayLoginpage(driver);
+	SkillarayLoginPage s=new SkillarayLoginPage(driver);
 	s.searchtf(p.getData("search"));
 	s.searchbtn();
 	SkillarayCouresesPage c=new SkillarayCouresesPage(driver);

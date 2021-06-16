@@ -7,13 +7,13 @@ import org.testng.annotations.Test;
 
 import PomPages.ContactUsPage;
 import PomPages.DemoSkillarayLoginPage;
-import PomPages.SkillarayLoginpage;
+import PomPages.SkillarayLoginPage;
 import genericlib.BaseClass;
 
 public class ContactUs extends BaseClass {
 	@Test
 	public void contactUspage() throws FileNotFoundException, IOException {
-		SkillarayLoginpage s=new SkillarayLoginpage(driver);
+		SkillarayLoginPage s=new SkillarayLoginPage(driver);
         s.gearsClick();
         s.skillaraydemoClick();
         utilities.switchTab(driver);

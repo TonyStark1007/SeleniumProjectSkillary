@@ -12,6 +12,9 @@ import org.openqa.selenium.support.ui.Select;
 public class WebDriverUtilities {
 public void dropDown(WebElement ele,String text) {
 	Select s=new Select(ele);
+	if(s.isMultiple()) {
+		System.out.println("DropDown is Multiselect");
+	}
 	s.selectByVisibleText(text);
 }
 public void mouseHover(WebDriver driver,WebElement ele) {
