@@ -2,31 +2,31 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-16T10:34:28 IST" name="Default suite" finished-at="2021-06-16T10:34:57 IST" duration-ms="29177">
+  <suite started-at="2021-06-18T16:10:48 IST" name="Default suite" finished-at="2021-06-18T16:11:17 IST" duration-ms="28649">
     <groups>
     </groups>
-    <test started-at="2021-06-16T10:34:28 IST" name="Default test" finished-at="2021-06-16T10:34:57 IST" duration-ms="29177">
-      <class name="Scripts.Career">
-        <test-method is-config="true" signature="openApp()[pri:0, instance:Scripts.Career@1ba9117e]" started-at="2021-06-16T10:34:28 IST" name="openApp" finished-at="2021-06-16T10:34:36 IST" duration-ms="8600" status="PASS">
+    <test started-at="2021-06-18T16:10:48 IST" name="Default test" finished-at="2021-06-18T16:11:17 IST" duration-ms="28649">
+      <class name="Scripts.EassyEditor">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:Scripts.EassyEditor@1ba9117e]" started-at="2021-06-18T16:10:48 IST" name="openApp" finished-at="2021-06-18T16:11:01 IST" duration-ms="12841" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="myCourse()[pri:0, instance:Scripts.Career@1ba9117e]" started-at="2021-06-16T10:34:36 IST" name="myCourse" finished-at="2021-06-16T10:34:57 IST" duration-ms="20503" status="PASS">
+        <test-method signature="editor()[pri:0, instance:Scripts.EassyEditor@1ba9117e]" started-at="2021-06-18T16:11:01 IST" name="editor" finished-at="2021-06-18T16:11:17 IST" duration-ms="15717" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- myCourse -->
-        <test-method is-config="true" signature="close(org.testng.ITestResult)[pri:0, instance:Scripts.Career@1ba9117e]" started-at="2021-06-16T10:34:57 IST" name="close" finished-at="2021-06-16T10:34:57 IST" duration-ms="9" status="PASS">
+        </test-method> <!-- editor -->
+        <test-method is-config="true" signature="close(org.testng.ITestResult)[pri:0, instance:Scripts.EassyEditor@1ba9117e]" started-at="2021-06-18T16:11:17 IST" name="close" finished-at="2021-06-18T16:11:17 IST" duration-ms="10" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=myCourse status=SUCCESS method=Career.myCourse()[pri:0, instance:Scripts.Career@1ba9117e] output={null}]]]>
+                <![CDATA[[TestResult name=editor status=SUCCESS method=EassyEditor.editor()[pri:0, instance:Scripts.EassyEditor@1ba9117e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- Scripts.Career -->
+      </class> <!-- Scripts.EassyEditor -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

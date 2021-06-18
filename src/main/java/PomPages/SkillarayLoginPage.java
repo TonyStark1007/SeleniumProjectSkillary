@@ -14,7 +14,10 @@ public class SkillarayLoginPage {
 	private WebElement coursebtn;
 	@FindBy(xpath="//a[text()=' GEARS ']")
 	private WebElement gearsbtn;
-
+	
+    @FindBy(xpath="(//a[text()=' SkillRary Essay'])[2]")
+    private WebElement eassybtn;
+    
 	@FindBy(xpath="(//a[text()=' SkillRary Demo APP'])[2]")
 	private WebElement skillaraydemobtn;
 
@@ -64,5 +67,8 @@ public class SkillarayLoginPage {
 	}
 	public void contactUsbtn() {
 		contactusbtn.click();
+	}
+	public void eassy() {
+		eassybtn.click();
 	}
 }

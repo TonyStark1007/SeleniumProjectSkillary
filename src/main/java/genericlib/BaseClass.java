@@ -36,7 +36,7 @@ public class BaseClass {
 			Screenshot s=new Screenshot();
 			s.getPhoto(driver, name);
 		}
-		//driver.quit();
+		driver.quit();
 	}
 
 
